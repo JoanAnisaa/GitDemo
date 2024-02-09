@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="C:/Users/joana/IdeaProjects/TestNG">
+        <classes>
+            <class name="TestNG1.Test1">
+                <methods>
+                    <include name="demo"/>
+                    <include name="demo2"/>
+                </methods>
+            </class>
+            <class name="TestNG1.Test2">
+                <methods>
+                    <include name="show"/>
+                    <include name="show2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
